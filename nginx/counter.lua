@@ -1,3 +1,5 @@
+-- based on sample code at https://github.com/agentzh/lua-resty-mysql
+
 local mysql = require "resty.mysql"
 local db, err = mysql:new()
 if not db then
