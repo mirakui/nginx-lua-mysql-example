@@ -1,0 +1,4 @@
+GRANT ALL PRIVILEGES ON *.* TO 'lua'@'localhost' IDENTIFIED BY 'lua';
+CREATE DATABASE lua;
+CREATE TABLE lua.counters(id INT PRIMARY KEY AUTO_INCREMENT, value INT NOT NULL);
+INSERT INTO lua.counters (value) VALUES (0);
