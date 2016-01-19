@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTENER Issei Naruta <mimitako@gmail.com>
+MAINTAINER Issei Naruta <mimitako@gmail.com>
 
 RUN dpkg-divert --local --rename --add /sbin/initctl
 RUN ln -s /bin/true /sbin/initctl
